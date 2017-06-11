@@ -19,3 +19,8 @@ deploy:
         token: $GIT_TOKEN
         basedir: public
         repo: pinusm/pinusm.github.io
+
+after-steps:
+    - mitsuse/bullet-send:
+        title: "${WERCKER_GIT_REPOSITORY} - Build ${WERCKER_RESULT}."
+        path: "${WERCKER_BUILD_URL}"
