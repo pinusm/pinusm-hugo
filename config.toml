@@ -1,15 +1,15 @@
-baseurl = "https://example.com/"  # End your URL with a `/` trailing slash.
-title = "Academic"
-copyright = "&copy; 2016 Your Name"
+baseurl = "https://pinusm.github.io/"  # End your URL with a `/` trailing slash.
+title = "Michael Pinus"
+copyright = "&copy; 2017 Michael Pinus"
 theme = "hugo-academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+disqusShortname = "pinusm"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-100771793-1"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
@@ -19,16 +19,16 @@ defaultContentLanguageInSubdir = false
   hrefTargetBlank = true
 
 [params]
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
-  organization = "Stanford University"
-  organization_url = ""
+  name = "Michael Pinus"
+  role = "Ph.D Student / Clinical Psychologist"
+  organization = "Ben-Gurion University in the Negev"
+  organization_url = "http://www.bgu.ac.il/"
   avatar = "portrait.jpg"
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
+  email = "pinusm@post.bgu.ac.il"
+  address = "Building 98 Room 103, Ben-Gurion University of the Negev, P.O.B. 653 Beer-Sheva 8410501 Israel"
+  office_hours = "Email for appointment"
+  phone = ""
+  skype = "michael.pinus"
   telegram = ""
 
   # Enable Keybase in Contact section by entering your keybase.io username.
@@ -125,22 +125,32 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:test@example.org"
+    link = "mailto:pinusm@post.bgu.ac.il"
 
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "//twitter.com/GeorgeCushen"
+    link = "//twitter.com/michael_pinus"
 
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    link = "https://scholar.google.co.uk/citations?user=rDFoAqIAAAAJ"
+
+  [[params.social]]
+    icon = "researchgate"
+    icon_pack = "ai"
+    link = "https://researchgate.net/profile/Michael_Pinus"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/gcushen"
+    link = "//github.com/pinusm"
+
+  [[params.social]]
+    icon = "osf"
+    icon_pack = "ai"
+    link = "//osf.io/jnwcr/"
 
 
 # Navigation Links
