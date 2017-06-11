@@ -8,6 +8,6 @@ build:
         code: |
             $(git clone https://github.com/gcushen/hugo-academic ./themes/hugo-academic)
     - arjen/hugo-build:
-        version: "0.14"
+        version: "0.18"
         theme: hugo-academic
         flags: --buildDrafts=true
