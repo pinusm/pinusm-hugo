@@ -25,5 +25,5 @@ pushbullet:
     - install-packages:
         packages: ca-certificates
     - mitsuse/bullet-send:
-        title: "${WERCKER_GIT_REPOSITORY} - Build ${WERCKER_RESULT}."
+        title: "${WERCKER_GIT_REPOSITORY} - updated ${WERCKER_RESULT}."
         path: "${WERCKER_BUILD_URL}"
