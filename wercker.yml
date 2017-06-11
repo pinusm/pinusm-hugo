@@ -18,4 +18,4 @@ deploy:
     - keanemind/gh-pages@0.2.4:
         token: $GIT_TOKEN
         basedir: public
-        repo: pinusm/pinusm
+        repo: pinusm/pinusm.github.io
