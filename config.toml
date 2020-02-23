@@ -1,6 +1,6 @@
 baseurl = "https://pinusm.github.io/"  # End your URL with a `/` trailing slash.
 title = "Michael Pinus"
-copyright = "&copy; 2017 Michael Pinus"
+copyright = "&copy; 2017-2020 Michael Pinus"
 theme = "hugo-academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -23,7 +23,7 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Michael Pinus"
-  role = "Ph.D Student / Clinical Psychologist"
+  role = "Personality-Social Psychology / Stats"
   organization = "Ben-Gurion University of the Negev"
   organization_url = "http://www.bgu.ac.il/"
   avatar = "portrait.jpg"
